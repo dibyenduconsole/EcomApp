@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <data>
+        <variable
+            name="categories"
+            type="com.app.myecom.view.categories.CategoriesData"/>
+
+        <variable
+            name="handler"
+            type="com.app.myecom.view.categories.CategoriesClickHandler" />
+    </data>
+
+<LinearLayout
+    android:onClick="@{(view) -> handler.onClickCategoriesItem(categories)}"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:padding="@dimen/_3sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:src="@drawable/ic_settings_remote_black_24dp" />
+
+    <TextView
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/md_light"
+        android:text="Mobile"
+        android:textSize="@dimen/_8sdp"
+        android:textColor="@color/gray_dark" />
+</LinearLayout>
+</layout>

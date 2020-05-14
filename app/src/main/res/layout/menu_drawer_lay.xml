@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:scrollbars="none"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/_layAccount"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/profile_image"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#CBFFFFFF"/>
+
+                <LinearLayout
+                    android:layout_margin="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/_tvProfileName"
+                        android:maxLines="2"
+                        android:fontFamily="@font/md_regular"
+                        android:textSize="@dimen/_16sdp"
+                        android:textColor="@color/white"
+                        android:text="Alex Pandya"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/_tvMyAccount"
+                        android:fontFamily="@font/md_regular"
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="@color/white"
+                        android:text="My Account"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:id="@+id/_btnNotifications"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+
+                <ImageView
+                    style="@style/MenuDrawerImageView"
+                    android:src="@mipmap/ic_launcher"/>
+
+                <TextView
+                    style="@style/MenuDrawerTextView"
+                    android:text="Notifications"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/_btnWishList"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+
+                <ImageView
+                    style="@style/MenuDrawerImageView"
+                    android:src="@mipmap/ic_launcher"/>
+
+                <TextView
+                    style="@style/MenuDrawerTextView"
+                    android:text="Wish List"/>
+
+            </LinearLayout>
+
+           <!-- <LinearLayout
+                android:id="@+id/_btnAboutUs"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+
+                <ImageView
+                    style="@style/MenuDrawerImageView"
+                    android:src="@mipmap/mn_about_us"/>
+
+                <TextView
+                    style="@style/MenuDrawerTextView"
+                    android:text="About Us"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/_btnContactUs"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+
+                <ImageView
+                    style="@style/MenuDrawerImageView"
+                    android:src="@mipmap/mn_contact_us"/>
+
+                <TextView
+                    style="@style/MenuDrawerTextView"
+                    android:text="Contact Us"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/_btnPrivacyPolicy"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+
+                <ImageView
+                    style="@style/MenuDrawerImageView"
+                    android:src="@mipmap/mn_pravicy_policy"/>
+
+                <TextView
+                    style="@style/MenuDrawerTextView"
+                    android:text="Privacy Policy"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/_btnTermsCondition"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+
+                <ImageView
+                    style="@style/MenuDrawerImageView"
+                    android:src="@mipmap/mn_terms_condition"/>
+
+                <TextView
+                    style="@style/MenuDrawerTextView"
+                    android:text="Terms &amp; Conditions"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/_btnLanguage"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+
+                <ImageView
+                    style="@style/MenuDrawerImageView"
+                    android:src="@mipmap/mn_language"/>
+
+                <TextView
+                    style="@style/MenuDrawerTextView"
+                    android:text="Language"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/_btnUseCoupon"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+
+                <ImageView
+                    style="@style/MenuDrawerImageView"
+                    android:src="@mipmap/mn_use_coupon"/>
+
+                <TextView
+                    style="@style/MenuDrawerTextView"
+                    android:text="Use Coupon"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/_btnSubscribe"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:text="SUBSCRIBE"
+                android:fontFamily="@font/lato_regular"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/background_fill_rounded_white"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"/>
+
+            <Button
+                android:id="@+id/_btnLogOut"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:text="LOGOUT"
+                android:fontFamily="@font/lato_regular"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/background_border_rounded_white"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"/>-->
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

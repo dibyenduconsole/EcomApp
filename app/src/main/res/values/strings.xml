@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyEcom</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mn_home">Home</string>
+    <string name="mn_cart">Cart</string>
+    <string name="mn_account">Account</string>
+    <string name="tv_categories">Categories</string>
+    <string name="view_all">View All</string>
+    <string name="tv_offer">Offer Zone</string>
+    <string name="tv_tranding">Tranding</string>
+</resources>

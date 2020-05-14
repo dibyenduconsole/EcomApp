@@ -1,0 +1,16 @@
+{
+  "p_id": "123",
+  "p_name": "Micromax mobile ATX370",
+  "price": "Rs. 3500",
+  "special_price": "Rs. 2700",
+  "is_in_cart": false,
+  "is_in_offer": true,
+  "is_in_stock": true,
+  "offer_text": "25%",
+  "short_description": "Live JSON generator to interactively create, edit, and generate JSON objects. ObjGen uses a simple shorthand syntax to generate rich and complex JSON data.",
+  "description": "Create on drawable folder and put the gradient.xml file in that from there you can access it.no need to create multiple folders. I don't know why anyone would use a sweep, but I am including it for completeness. I couldn't figure out how to change the angle, so I am only including one image.Create on drawable folder and put the gradient.xml file in that from there you can access it.no need to create multiple folders. I don't know why anyone would use a sweep, but I am including it for completeness. I couldn't figure out how to change the angle, so I am only including one image.",
+  "img_url": "https://i.picsum.photos/id/527/200/300.jpg",
+  "cat_id": "711",
+  "sub_cat_id": "456",
+  "brand_id": "358"
+}

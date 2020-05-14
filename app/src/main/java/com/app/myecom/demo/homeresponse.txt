@@ -1,0 +1,47 @@
+[
+    {
+  "view_type": 1,
+  "view_text": "Banner"
+  },
+  {
+    "view_type": 2,
+    "view_text": "Categories"
+    },
+    {
+  "view_type": 3,
+  "view_text": "Offer Zone"
+  },
+  {
+    "view_type": 3,
+    "view_text": "Summertime"
+    },
+    {
+      "view_type": 4,
+      "view_text": "Trending"
+      },
+      {
+        "view_type": 3,
+        "view_text": "Recently View"
+        },
+        {
+              "view_type": 4,
+              "view_text": "Trending"
+              },
+              {
+                    "view_type": 4,
+                    "view_text": "Trending"
+                    },
+        {
+          "view_type": 5,
+          "view_text": "Ad View"
+          },
+          {
+            "view_type": 7,
+            "view_text": "Small Banner"
+            },
+
+            {
+              "view_type": 6,
+              "view_text": "ImageInfo Link"
+              }
+  ]
